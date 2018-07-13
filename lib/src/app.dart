@@ -6,6 +6,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Log me in!',
       home: Scaffold(
+        appBar: AppBar(title: Text('Stateful Validations'),),
         body: LoginScreen(),
       ),
     );
